@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Learn to Die</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+	<body>
+		<div class="container">
+    		<div class="blurb">
+        		<h1>That to Philosophize is to Learn to Die</h1>
+				<p>Here is my life.</p>
+                <figure>
+                    <canvas id="mylife" width="700" height="500" style="margin-left: 30px;">
+                        Your browser does not support the canvas element.
+                    </canvas>
+                </figure>
+                <p>Each little square here represents one week of my life. <br> 
+                    The black squares are my weeks already lived and the white squares are the weeks I hope to live. Something like 80 years.</p>
+
+                <div>
+                    <h4>and your life?</h4>
+                    Select your date of birth: <input id="date" type="date" value="1997-10-07" onchange="updateCanvas()">
+                    <br>
+                    <canvas id="canvas" width="0" height="0" style="margin-left: 70px;">
+                        Your browser does not support the canvas element.
+                    </canvas>
+                </div>
+    		</div>
+		</div>
+		<footer>
+    		<ul>
+        		<li><a href="mailto:guilherme.philippi@hotmail.com">email</a></li>
+        		<li><a href="https://github.com/caomem">github.com/caomem</a></li>
+			</ul>
+		</footer>
+        
+        <script src="momentomori.js"></script>
+	</body>
+</html>
