@@ -1,2 +1,4 @@
-# learntodie.github.io
-That to Philosophize is to Learn to Die
+# Lear to Die
+
+
+Available [here](https://caomem.github.io/learntodie.github.io/).
